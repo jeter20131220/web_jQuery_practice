@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 微軟正黑體;
+}
+
+nav {
+    position: fixed;
+    padding:30px 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    span {
+        display: inline-block;
+        padding: 10px 30px;
+        cursor: pointer;
+        
+    }
+}
+section {
+    border: 1px solid #000;
+    height: 100vh;
+    background: #eeeeee;
+    font-size: 72px;
+    line-height: 100vh;
+    text-align: center;
+    color:#fff;
+
+    &:nth-of-type(2) {
+        background-color:#808080;
+    }
+
+}
+img{
+    position: fixed;
+    bottom:50px;
+    right:20px;
+    width: 50px;
+
+    cursor: pointer;
+
+}
